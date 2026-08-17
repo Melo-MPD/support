@@ -1,0 +1,32 @@
+name: "💡 Feature request"
+description: "Suggest an idea or improvement"
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: "Which app?"
+      options:
+        - "Melo (macOS)"
+        - "Melo (iOS — iPhone & iPad)"
+        - "Melo (tvOS)"
+        - "Melo (watchOS)"
+        - "The whole suite"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem would this solve?"
+      description: "Describe the situation or frustration this feature would address."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: "Describe the feature"
+      description: "What would you like to see, and how would it work?"
+    validations:
+      required: true

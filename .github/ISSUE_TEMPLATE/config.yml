@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💬 Questions & discussion"
+    url: https://github.com/Melo-MPD/support/discussions
+    about: "Ask questions and chat with other Melo-MPD users."
+  - name: "✉️ Email support"
+    url: mailto:libor@liborvanc.com
+    about: "For users without a GitHub account."

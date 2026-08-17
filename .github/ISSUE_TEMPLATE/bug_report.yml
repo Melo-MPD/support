@@ -1,0 +1,76 @@
+name: "🐛 Bug report"
+description: "Something isn't working as expected"
+labels: ["bug", "needs-triage"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: "Which app?"
+      options:
+        - "Melo (macOS)"
+        - "Melo (iOS — iPhone & iPad)"
+        - "Melo (tvOS)"
+        - "Melo (watchOS)"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: "App version"
+      description: "Found in the About screen / Settings."
+      placeholder: "e.g. 1.2.3 (456)"
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: "macOS / iOS version"
+      description: "Or tvOS / watchOS version, as applicable."
+      placeholder: "e.g. macOS 15.6, iOS 18.6"
+    validations:
+      required: true
+
+  - type: input
+    id: mpd-version
+    attributes:
+      label: "MPD server version"
+      description: "Run `mpd --version` on the server."
+      placeholder: "e.g. 0.24.4"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection
+    attributes:
+      label: "How do you connect to MPD?"
+      options:
+        - "Local network (LAN)"
+        - "VPN (Tailscale, WireGuard, etc.)"
+        - "TLS / reverse proxy"
+        - "Unix socket"
+        - "Other / not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What happened?"
+      description: "What you did, what you expected to happen, and what happened instead."
+      placeholder: |
+        1. I did …
+        2. I expected …
+        3. Instead …
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / error output"
+      description: "Optional. Paste any relevant logs or error messages."
+      render: shell
+    validations:
+      required: false
