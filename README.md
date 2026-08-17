@@ -1,10 +1,10 @@
 # Melo-MPD Support
 
-Welcome! 👋 This is the official support repository for **Melo-MPD**, a suite of
+Welcome! 👋 This is the official support repository for **[Melo-MPD](https://melompd.com)**, a suite of
 [MPD](https://www.musicpd.org) clients for macOS and iOS (plus tvOS and watchOS).
 There's no source code here — just a place to get help, report bugs, and share ideas.
 
-## 🆘 Get help
+## 🛟 Get help
 
 - 🐛 **Found a bug?** [Open a bug report](https://github.com/Melo-MPD/support/issues/new/choose)
 - 💡 **Have an idea?** [Request a feature](https://github.com/Melo-MPD/support/issues/new/choose)
@@ -29,4 +29,4 @@ Please include the following — it makes issues much faster to track down:
 | Melo | tvOS | A living-room experience for browsing and playback |
 | Melo | watchOS | Quick playback controls from the wrist |
 
-Thanks for using Melo-MPD! 🎶
+Thanks for using [Melo-MPD](https://melompd.com)! 🎶
