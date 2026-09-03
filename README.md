@@ -10,6 +10,7 @@ There's no source code here — just a place to get help, report bugs, and share
 - 💡 **Have an idea?** [Request a feature](https://github.com/Melo-MPD/support/issues/new/choose)
 - 💬 **Questions or general chat?** Join the [Discussions](https://github.com/Melo-MPD/support/discussions)
 - ✉️ **No GitHub account?** Email [libor@liborvanc.com](mailto:libor@liborvanc.com)
+- 🔒 **Privacy:** Melo collects no data — see the [privacy policy](PRIVACY.md)
 
 ## 🔍 Before reporting a bug
 
